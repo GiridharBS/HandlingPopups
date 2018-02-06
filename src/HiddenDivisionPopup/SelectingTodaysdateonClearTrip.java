@@ -1,3 +1,4 @@
+//WAP to select today's date on the ClearTrip website
 package HiddenDivisionPopup;
 
 import java.util.Date;
@@ -38,6 +39,7 @@ public class SelectingTodaysdateonClearTrip {
 			driver.findElement(By.id(extractedDate)).click();
 		}
 		
+		driver.close();
 		
 	}
 
